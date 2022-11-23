@@ -31,7 +31,7 @@ function initMap() {
   });
   
   google.maps.marker = new google.maps.Marker({
-    position: tokyo // place lat and lng
+    position: paris // place lat and lng
     map: map,
   });
 }
