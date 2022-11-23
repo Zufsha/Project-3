@@ -21,20 +21,17 @@ function initMap() {
   // 1st place marker
    google.maps.marker = new google.maps.Marker({
     position: norway // place lat and lng
-	position:new google.maps.Marker(
     map: map,
   });
   
   // 2nd place marker
   google.maps.marker = new google.maps.Marker({
     position: tokyo // place lat and lng
-	position:new google.maps.Marker(
     map: map,
   });
   
   google.maps.marker = new google.maps.Marker({
     position: tokyo // place lat and lng
-	position:new google.maps.Marker(
     map: map,
   });
 }
