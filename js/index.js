@@ -33,7 +33,7 @@ function initMap() {
   });
   
   var parismarker = new google.maps.Marker({
-    position: { lat: 48.864716, lng: 2.349014 };
+    position: { lat: 48.864716, lng: 2.349014 },
 	lable: "Paris",
     map: map,
   });
