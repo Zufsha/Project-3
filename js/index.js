@@ -19,19 +19,22 @@ function initMap() {
   });
   
   // 1st place marker
-   google.maps.marker = new google.maps.Marker({
-    position: norway // place lat and lng
+   var norwaymarker = new google.maps.Marker({
+    position:{ lat: 60.4720, lng: 8.4689 },
+	lable: "Norway",
     map: map,
   });
   
   // 2nd place marker
-  google.maps.marker = new google.maps.Marker({
-    position: tokyo // place lat and lng
+  var tokyomarker = new google.maps.Marker({
+    position: { lat: 35.652832, lng: 139.839478 },
+	lable: "Tokyo",
     map: map,
   });
   
-  google.maps.marker = new google.maps.Marker({
-    position: paris // place lat and lng
+  var parismarker = new google.maps.Marker({
+    position: { lat: 48.864716, lng: 2.349014 };
+	lable: "Paris",
     map: map,
   });
 }
