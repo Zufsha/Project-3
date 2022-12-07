@@ -108,11 +108,11 @@ ul{
 	nav{
 		font-weight:normal;
 		width:65%;
-		
+	}
 		
 }
 
-@media print and (orentation: portrait){
+@media print and (orientation: portrait){
 	p{
 		font-size: 15px;
 	}
