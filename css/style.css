@@ -94,8 +94,38 @@ ul{
 
 #map {
   height: 400px;
-  /* The height is 400 pixels */
   width: 100%;
-  /* The width is the width of the web page */
 }
+
+@media screen and (min-width: 500px){
+	html{
+		padding: 0;
+	}
+	p{
+		font-size: 30px;
+		line-height: 2.5;
+	}
+	nav{
+		font-weight:normal;
+		width:65%;
+		
+		
+}
+
+@media print and (orentation: portrait){
+	p{
+		font-size: 15px;
+	}
 	
+	h1{
+		font-size:50px;
+	}
+	
+	h2{
+		font-size:30px;
+	}
+	
+	h3{
+		font-size:20px;
+	}
+}
